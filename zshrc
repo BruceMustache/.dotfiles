@@ -7,10 +7,7 @@ fi
 
 export TERM='xterm-256color'
 
-export PATH="$PATH:$HOME/development/Qt/Tools/QtCreator/bin"
-export PATH="$PATH:$HOME/home/bruce/development/Qt/5.14.1/gcc_64/bin"
-export PATH="$PATH:/snap/bin"
-
+source ~/.bash_profile
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 

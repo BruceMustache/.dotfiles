@@ -1,6 +1,6 @@
 inoremap jk <ESC>
 
-" let leader " "
+let mapleader = " "
 syntax on 
 
 set number
