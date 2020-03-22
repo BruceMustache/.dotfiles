@@ -7,7 +7,6 @@ fi
 
 export TERM='xterm-256color'
 
-source ~/.bash_profile
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -126,6 +125,8 @@ alias gcf='git config'
 alias gcfl='git config --list'
 alias gcfg='git config --global'
 
+zle -C ranger
+bindkey ^o ranger
 
 # -------------------------------- POWERLEVEL ---------------------------------
 
