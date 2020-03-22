@@ -122,6 +122,9 @@ alias alf="alias | grep"
 alias al="alias"
 alias v='vim'
 alias gcap='gc && gp'
+alias gcf='git config'
+alias gcfl='git config --list'
+alias gcfg='git config --global'
 
 
 # -------------------------------- POWERLEVEL ---------------------------------
