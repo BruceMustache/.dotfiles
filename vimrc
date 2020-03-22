@@ -14,7 +14,8 @@ inoremap jk <ESC>
 nnoremap <leader>f lz=
 nnoremap <leader>s :set spell!<CR>
 nnoremap <leader>r :!(clear & run %)<CR>
-nnoremap <leader>ds :source ~/.vimrc<CR>
+nnoremap <leader>cs :source ~/.vimrc<CR>
+nnoremap <leader>ce :split ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>x ZZ
 nnoremap <leader>q ZQ
