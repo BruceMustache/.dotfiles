@@ -120,6 +120,7 @@ alias zs="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias alf="alias | grep"
 alias al="alias"
+alias v='vim'
 
 
 # -------------------------------- POWERLEVEL ---------------------------------
