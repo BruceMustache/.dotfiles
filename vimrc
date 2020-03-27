@@ -13,12 +13,14 @@ inoremap jk <ESC>
 " normal
 nnoremap <leader>f lz=
 nnoremap <leader>s :set spell!<CR>
-nnoremap <leader>r :!(clear & run %)<CR>
+nnoremap <leader>r :w<CR>:!(clear & run %)<CR>
 nnoremap <leader>cs :source ~/.vimrc<CR>
 nnoremap <leader>ce :split ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>x ZZ
 nnoremap <leader>q ZQ
+nnoremap <leader>ds :%s///g<Left><Left><Left>
+nnoremap <leader>dl :s///g<Left><Left><Left>
 " visual
 vnoremap . :norm.<CR>
 
