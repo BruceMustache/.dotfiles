@@ -5,11 +5,13 @@ filetype plugin indent on
 set encoding=utf-8
 set clipboard=unnamedplus
 set spell spelllang=en_us
+"set spell spelllang=pt
 set number
 set relativenumber
 
 " insert
 inoremap jk <ESC>
+inoremap kj <ESC>
 " normal
 nnoremap <leader>f lz=
 nnoremap <leader>s :set spell!<CR>
