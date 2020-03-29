@@ -124,6 +124,8 @@ alias gcap='gc && gp'
 alias gcf='git config'
 alias gcfl='git config --list'
 alias gcfg='git config --global'
+alias python='python3'
+alias py='python3'
 
 zle -C ranger
 bindkey ^o ranger
@@ -175,6 +177,15 @@ fi
 short() {
 	POWERLEVEL9K_CUSTOM_OS_ICON=''
 	POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-	POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%F{blue}╭─%F{blue}'
+	POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%F{blue}╭─%F{blue}'
+	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+}
+
+more_short() {
+	POWERLEVEL9K_CUSTOM_OS_ICON=''
+	POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+	POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%F{blue}╭─%F{blue}'
+	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir)
+	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 }
 
