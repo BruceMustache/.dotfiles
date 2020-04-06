@@ -1,4 +1,5 @@
 let mapleader = " "
+let g:diff_translations = 0
 syntax on 
 filetype plugin indent on
 
@@ -11,7 +12,6 @@ set relativenumber
 
 " insert
 inoremap jk <ESC>
-inoremap kj <ESC>
 " normal
 nnoremap <leader>f lz=
 nnoremap <leader>s :set spell!<CR>
@@ -23,6 +23,6 @@ nnoremap <leader>x ZZ
 nnoremap <leader>q ZQ
 nnoremap <leader>ds :%s///g<Left><Left><Left>
 nnoremap <leader>dl :s///g<Left><Left><Left>
-" visual
-vnoremap . :norm.<CR>
+" command mode
+cnoremap jk <ESC>
 
