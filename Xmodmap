@@ -258,7 +258,10 @@ keysym  h = h H Left Home hstroke Hstroke hstroke
 keysym  j = j J Down J dead_hook dead_horn dead_hook
 keysym  k = k K Up K kra ampersand kra
 keysym  l = l L Right End lstroke Lstroke lstroke
-! TODO Home End PgUp PgDn Del Enter
-! TODO find caps lock
+keysym  u = u U BackSpace Delete downarrow uparrow downarrow uparrow u U downarrow uparrow
+! Insert        ↓
+keysym  i = i I i I rightarrow idotless rightarrow idotless i I rightarrow idotless
+keysym  o = o O Escape O oslash Oslash oslash Oslash o O oslash Oslash o O oslash Oslash
+! TODO PgUp PgDn Enter
 add control = Control_L Control_R
 
