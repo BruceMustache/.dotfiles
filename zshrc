@@ -87,6 +87,7 @@ plugins=(
 	debian
 	zsh-syntax-highlighting
 	zsh-autosuggestions
+	#vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -126,6 +127,7 @@ alias gcfl='git config --list'
 alias gcfg='git config --global'
 alias python='python3'
 alias py='python3'
+alias xmod='xmodmap ~/.Xmodmap'
 
 zle -C ranger
 bindkey ^o ranger
