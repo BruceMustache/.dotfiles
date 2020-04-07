@@ -128,7 +128,8 @@ POWERLEVEL9K_CUSTOM_OS_ICON='echo   $(whoami) '
 POWERLEVEL9K_CUSTOM_OS_ICON_BACKGROUND=black
 POWERLEVEL9K_CUSTOM_OS_ICON_FOREGROUND=blue
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_os_icon ssh root_indicator dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time ram)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time ram)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs)
 
 # ----------------------------------- p10k ------------------------------------
 
