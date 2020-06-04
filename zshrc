@@ -7,6 +7,7 @@ fi
 
 export TERM='xterm-256color'
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:/opt/flutter/bin
 export ZSH="/home/bruce/.oh-my-zsh"
 export EDITOR='vim'
 
@@ -64,7 +65,7 @@ plugins=(
 	debian
 	zsh-syntax-highlighting
 	zsh-autosuggestions
-	#vi-mode
+	# vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -77,7 +78,7 @@ export LANG=en_US.UTF-8
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
-alias zc="vim ~/.zshrc"
+alias zc="vim ~/.dotfiles/zshrc"
 alias zs="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias alf="alias | grep"
@@ -90,6 +91,8 @@ alias gcfg='git config --global'
 alias python='python3'
 alias py='python3'
 alias xmod='xmodmap ~/.Xmodmap'
+alias ytdl='youtube-dl'
+alias dgaa='gaa && grh /home/bruce/Documents/dac/DAC/dac-screens/main.qml'
 
 # zle -C ranger
 # bindkey ^o ranger
@@ -124,12 +127,12 @@ POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON=↑
 POWERLEVEL9K_VCS_COMMIT_ICON=' '
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%F{blue}╭─%F{black}'
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%F{blue}╰%f '
-POWERLEVEL9K_CUSTOM_OS_ICON='echo   $(whoami) '
+POWERLEVEL9K_CUSTOM_OS_ICON='echo 😎 $(whoami) '
 POWERLEVEL9K_CUSTOM_OS_ICON_BACKGROUND=black
-POWERLEVEL9K_CUSTOM_OS_ICON_FOREGROUND=blue
+POWERLEVEL9K_CUSTOM_OS_ICON_FOREGROUND=green
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_os_icon ssh root_indicator dir dir_writable vcs)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time ram)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time ram)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status background_jobs time)
 
 # ----------------------------------- p10k ------------------------------------
 
