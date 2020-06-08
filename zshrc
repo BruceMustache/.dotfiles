@@ -93,6 +93,10 @@ alias py='python3'
 alias xmod='xmodmap ~/.Xmodmap'
 alias ytdl='youtube-dl'
 alias dgaa='gaa && grh /home/bruce/Documents/dac/DAC/dac-screens/main.qml'
+alias cddot='cd ~/.dotfiles'
+alias usmod='setxkbmap us; xmod'
+alias brmod='setxkbmap br; xmod'
+alias brmap='setxkbmap br'
 
 # zle -C ranger
 # bindkey ^o ranger
