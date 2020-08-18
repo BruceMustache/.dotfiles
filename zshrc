@@ -61,8 +61,6 @@ HIST_STAMPS="mm/dd/yyyy"
 plugins=(
 	git
 	git-flow-avh
-	git-flow
-	git-auto-fetch
 	debian
 	zsh-syntax-highlighting
 	zsh-autosuggestions
